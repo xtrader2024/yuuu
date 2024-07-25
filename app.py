@@ -4,9 +4,6 @@ import talib
 import pandas as pd
 import streamlit as st
 
-# Binance API keys (replace with your own keys)
-API_KEY = 'TAAgJilKcF9LHg977hGa3fVXdd9TUv6EmaZu7YgkCa4f8aAcxT5lvRI1gkh8mvw2'
-API_SECRET = 'Yw48JHkJu3dz0YpJrPJz9ektNHUvYZtNePTeQLzDAe0CRk33wyKbebyRV0q4xwJk'
 
 # Binance API client
 binance = ccxt.binance({
